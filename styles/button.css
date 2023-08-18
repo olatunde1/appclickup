@@ -1,0 +1,29 @@
+.signUp:hover{
+    background-color: red;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 4px 0 #00000010;
+    color: var(--geist-foreground);
+    transition-property: color,background-color,box-shadow;
+    transition-duration: .15s;
+    transition-timing-function: ease;
+}
+
+.signUp{
+    display: flex;
+    align-items: center;
+    background-color: #7b68ee;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform .2s cubic-bezier(.785,.135,.15,.86),background-color .2s cubic-bezier(.785,.135,.15,.86);
+    letter-spacing: .4px;
+    padding: 0 20px;
+    height: 40px;
+    color: #fff;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px #7b68ee80;
+}
