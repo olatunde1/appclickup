@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary p-4">
       <Container fluid>
         <Navbar.Brand href="#">
             <Image style={{
@@ -30,12 +30,7 @@ function NavScrollExample() {
             navbarScroll
           />
           <Form className="d-flex">
-            <p 
-                style={{
-                    textAlign: 'center',
-                    alignItems: 'center',
-                }}
-            >
+            <p className='account'>
                 Don&apos;t have an account?</p>
             <Button className='signUp' style={{
                     padding: '10px 20px',

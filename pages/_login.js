@@ -22,8 +22,10 @@ function BasicExample() {
       <p className='sso'>or login with SSO</p>
     </Form>
     {/* <Button>Help</Button> */}
-    <p className='option'>Don&apos;t have an account? <span>Sign up</span></p>
-      </div>
+    <p className='option'>Don&apos;t have an account? <span className='signUpText'>Sign up</span></p>
+    <p className='policy'>This site is protected by reCAPTCHA and the Google <span className='privatePolicy'>Privacy Policy</span> and <span className='termOfService'>Terms of Service</span> apply.</p>
+  
+    </div>
       
     
   );
